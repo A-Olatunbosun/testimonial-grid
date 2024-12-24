@@ -130,14 +130,14 @@ body {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 980px) {
   body {
     display: grid;
     place-content: center;
   }
 
   .testimonials {
-    width: 70%;
+    width: 90%;
     grid-template-columns: repeat(4, 1fr);
   }
 
@@ -165,3 +165,14 @@ body {
     grid-row: 1 / 3;
   }
 }
+
+@media (min-width: 1200px) {
+  body {
+    display: grid;
+    place-content: center;
+  }
+
+  .testimonials {
+    width: 75%;
+    grid-template-columns: repeat(4, 1fr);
+  }
