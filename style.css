@@ -19,6 +19,7 @@ body {
   font-weight: 500;
   background-color: var(--lightGrayishBlue);
   color: var(--darkGrayishBlue);
+  min-height: 100vh;
 }
 
 .testimonials {
@@ -92,7 +93,7 @@ body {
 .attribution {
   font-size: 13px;
   text-align: center;
-  margin: 2rem 0;
+  margin-top: 12px;
 }
 
 .attribution a {
@@ -101,7 +102,7 @@ body {
 
 @media (min-width: 768px) {
   .testimonials {
-    width: 90%;
+    width: 80%;
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -130,6 +131,11 @@ body {
 }
 
 @media (min-width: 1200px) {
+  body {
+    display: grid;
+    place-content: center;
+  }
+
   .testimonials {
     width: 70%;
     grid-template-columns: repeat(4, 1fr);
